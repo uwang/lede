@@ -108,6 +108,12 @@ jobs:
           CONFIG_TARGET_ramips_mt7621=y
           CONFIG_TARGET_ramips_mt7621_DEVICE_thunder_timecloud=y
           EOF
+          # 树莓派 2B
+          # cat >> .config <<EOF
+          # CONFIG_TARGET_bcm27xx=y
+          # CONFIG_TARGET_bcm27xx_bcm2709=y
+          # CONFIG_TARGET_bcm27xx_bcm2709_DEVICE_rpi-2=y
+          # EOF
           # 固件压缩:
           # cat >> .config <<EOF
           # CONFIG_TARGET_IMAGES_GZIP=y
